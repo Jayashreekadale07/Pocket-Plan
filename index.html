@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance Tracker - Modern Design</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+
+      /* Navbar Styles */
+      nav {
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      nav .logo {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: #f7f7f7;
+      }
+
+      nav .nav-links {
+        list-style: none;
+        display: flex;
+      }
+
+      nav .nav-links li {
+        margin: 0 15px;
+      }
+
+      nav .nav-links a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+
+      nav .nav-links a:hover {
+        color: #ff9500;
+      }
+
+      /* Landing Page */
+      .landing {
+        background: linear-gradient(to bottom right, #ff9500, #ff5e62);
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+      }
+
+      .landing h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+      }
+
+      .landing p {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+      }
+
+      .landing button {
+        padding: 10px 20px;
+        font-size: 1em;
+        color: white;
+        background: #333;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+
+      .landing button:hover {
+        background: #444;
+      }
+
+      /* Tracker Section */
+      .tracker {
+        padding: 50px 20px;
+        background: #f9f9f9;
+      }
+
+      .tracker h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .tracker-form {
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .tracker-form input,
+      .tracker-form select,
+      .tracker-form button {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .tracker-form button {
+        background: #ff9500;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      .tracker-form button:hover {
+        background: #ff5e62;
+      }
+
+      /* Footer */
+      footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      footer p {
+        margin: 0;
+        font-size: 0.9em;
+      }
+
+      footer a {
+        color: #ff9500;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo"><i class="fas fa-chart-line"></i> Finance Tracker</a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#tracker">Tracker</a></li>
+        <li><a href="#how-it-works">How it Works</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </nav>
+
+    <section class="landing">
+      <h1>Take Control of Your Finances</h1>
+      <p>Track expenses, manage budgets, and secure your future.</p>
+      <button>Get Started</button>
+    </section>
+
+    <section class="tracker" id="tracker">
+      <h1>Your Personal Tracker</h1>
+      <form class="tracker-form">
+        <input type="text" placeholder="Description" />
+        <input type="number" placeholder="Amount" />
+        <select>
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+        <button>Add Transaction</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Finance Tracker | Designed by Jayashree</p>
+    </footer>
+  </body>
+</html>
