@@ -1,8 +1,8 @@
-# Personal Finance Tracker
+# Pocket-Plan
 
-Personal Finance Tracker is a web application that helps you manage your finances effectively. With this application, you can track your income and expenses, set budgets, and gain better control over your financial health. 
+Pocket-Plan(Finance-Tracker) is a web application that helps you manage your finances effectively. With this application, you can track your income and expenses, set budgets, and gain better control over your financial health. 
 
-<img width="960" alt="image" src="https://github.com/neeraj542/Personal-Finance-Tracker/assets/114648043/83946993-1e1b-41a8-ad3e-d0598bb9deb7">
+![Screenshot](https://github.com/user-attachments/assets/8b894135-d07e-4ebe-82c9-08d2e7402415)
 
 
 ## Features
@@ -19,23 +19,3 @@ Personal Finance Tracker is a web application that helps you manage your finance
 - HTML
 - CSS
 - JavaScript
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
-## Acknowledgements
-
-- [Feather Icons](https://feathericons.com/) - Icons used in the application
-- [Font Awesome](https://fontawesome.com/) - Icons used in the application
-
-## Contact
-
-For any inquiries or questions, please contact [email protected]
-
-Enjoy managing your finances with Personal Finance Tracker!
